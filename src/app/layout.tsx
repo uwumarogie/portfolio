@@ -8,7 +8,11 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Phillips Portfolio",
   description:
-    "This is teh portfolio from Phillips Uwuamrogie. This portfolio displays the problem solving skills from Phillips.",
+    "Explore the digital showcase of Phillips Uwumarogie, " +
+      "a dynamic professional known for his exceptional problem-solving skills and innovative solutions." +
+      " This portfolio highlights a curated selection of projects that demonstrate his expertise in technology and " +
+      "his ability to transform challenges into impactful results. Dive into Phillips' world of creativity " +
+      "and engineering excellence.",
 };
 
 export default function RootLayout({
