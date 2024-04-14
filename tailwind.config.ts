@@ -10,7 +10,7 @@ const config: Config = {
     extend: {
       colors: {
         "structure-gray": "#211F23",
-      }
+      },
     },
   },
   plugins: [],
