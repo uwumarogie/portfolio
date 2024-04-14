@@ -22,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className}`}>
+      <body className={`${inter.className} bg-black`}>
         <div className="w-full flex justify-center mt-7">
           <Navbar />
         </div>
