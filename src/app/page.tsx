@@ -1,8 +1,3 @@
-
 export default function Home() {
-  return (
-<h2>
-  sjfbslufblös
-</h2>
-  );
+  return <h2>sjfbslufblös</h2>;
 }
