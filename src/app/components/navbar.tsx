@@ -37,7 +37,7 @@ export default function Navbar() {
   return (
     <nav className="flex flex-row bg-structure-gray rounded-full min-w-[450px] h-[60px] items-center backdrop-blur">
       <div className="space-x-6 mx-4">
-        <NavLink href="/">phillips</NavLink>
+        <Link href="/" className="text-white">phillips</Link>
         <NavLink href="/education">Education</NavLink>
         <NavLink href="/projects">Projects</NavLink>
         <NavLink href="/blog">Blog</NavLink>
