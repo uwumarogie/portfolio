@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/app/components/navbar";
-import Laced from "@/app/components/laced";
+import Navbar from "@/app/_components/navbar";
+import Laced from "@/app/_components/laced";
+import { Footer } from "@/app/_components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,6 +29,9 @@ export default function RootLayout({
           <Navbar />
         </div>
         <Laced>{children}</Laced>
+        <div className="w-full flex justify-center">
+          <Footer />
+        </div>
       </body>
     </html>
   );

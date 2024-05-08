@@ -18,7 +18,7 @@ function NavLink({
   );
 }
 
-function SocialIcon({
+export function SocialIcon({
   href,
   src,
   alt,
@@ -36,7 +36,7 @@ function SocialIcon({
 
 export default function Navbar() {
   return (
-    <nav className="flex flex-row bg-structure-gray rounded-full min-w-[450px] h-[60px] items-center backdrop-blur">
+    <nav className="flex flex-row bg-structure-gray rounded-full min-w-[450px] h-14 items-center backdrop-blur">
       <div className="space-x-6 mx-4">
         <Link href="/" className="text-white">
           phillips

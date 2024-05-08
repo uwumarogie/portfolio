@@ -32,8 +32,8 @@ export default function Introduction() {
         <Image
           src="/images/photo-of-me.png"
           alt="Photo of Phillips Uwumarogie"
-          height={350}
-          width={350}
+          height={375}
+          width={375}
         />
       </div>
     </div>
