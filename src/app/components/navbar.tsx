@@ -18,7 +18,6 @@ function NavLink({
   );
 }
 
-
 function SocialIcon({
   href,
   src,
