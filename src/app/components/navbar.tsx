@@ -11,12 +11,13 @@ function NavLink({
 }) {
   return (
     <Link href={href}>
-      <span className="text-purple-300 hover:text-purple-500 focus:text-purple-500 transition-colors">
+      <span className="text-navbar-purple hover:text-purple-500 focus:text-purple-500 transition-colors">
         {children}
       </span>
     </Link>
   );
 }
+
 function SocialIcon({
   href,
   src,
