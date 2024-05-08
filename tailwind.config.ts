@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       colors: {
         "structure-gray": "#211F23",
+        "navbar-purple": "#b292ff",
       },
     },
   },
